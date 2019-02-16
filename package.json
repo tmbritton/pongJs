@@ -1,0 +1,24 @@
+{
+  "name": "fancy-pong",
+  "version": "0.0.1",
+  "description": "An implementation of Pong in javascript.",
+  "main": "index.js",
+  "dependencies": {
+    "@tmbritton/state-manager": "0.0.1",
+    "state-manager": "^0.0.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack --watch & live-server --port=8085"
+  },
+  "author": "",
+  "license": "ISC"
+}
